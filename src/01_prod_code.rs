@@ -5,6 +5,7 @@
 // cargo run
 
 // ! transitioning to production code
+// fs/mod.rs is created and referenced in main.rs
 
 pub type Result<T> = std::result::Result<T, Error>;
 pub type Error = Box<dyn std::error::Error>;

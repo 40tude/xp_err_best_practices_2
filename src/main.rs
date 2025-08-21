@@ -5,8 +5,9 @@
 
 // cargo run
 
-// ! specific & strict error
-// works with error.rs.01
+// ! specific & strict errors
+// Remove the   Error::Custom               variant
+// Add the      Error::CantListEmptyFolder  specific variant
 
 mod error;
 mod fs;

@@ -5,8 +5,9 @@
 
 // cargo run
 
-// ! extend error.rs
-// cargo add derive_more --features from
+// ! extend the content of error.rs
+// derive_more is mandatory
+//      cargo add derive_more --features from
 
 mod error;
 mod fs;
